@@ -1,26 +1,28 @@
-# German Credit Risk Prediction 🏦📊  
+# Previsão de Risco de Crédito Alemão 🏦📊  
 
-A machine learning project to predict whether a loan applicant is a **"Good"** or **"Bad"** credit risk based on the **German Credit Dataset**.  
+Um projeto de aprendizado de máquina para prever se um solicitante de empréstimo representa um risco de crédito **"Bom"** ou **"Ruim"**, com base no **German Credit Dataset**.  
 
-## 📌 Overview  
-This repository contains:  
-- Data preprocessing & exploratory analysis (`german_credit_prediction.ipynb`)  
-- Machine learning models for binary classification (Decision tree, random forest, XGBoost, etc.)  
-- Model evaluation & performance metrics (F1-score, Precision, Recall, ROC-AUC)  
+## 📌 Visão Geral  
+Este repositório contém:  
+- Pré-processamento de dados e análise exploratória (`german_credit_prediction.ipynb`)  
+- Modelos de aprendizado de máquina para classificação binária (Árvore de Decisão, Random Forest, XGBoost, etc.)  
+- Avaliação dos modelos e métricas de desempenho (F1-score, Precisão, Revocação, ROC-AUC)  
 
+## 📂 Conjunto de Dados  
+O **German Credit Dataset** contém 1.000 registros com variáveis (categóricas e numéricas) e uma variável alvo (`Risk` = Bom/Ruim).  
 
-## 📂 Dataset  
-The **German Credit Dataset** contains 1,000 entries with features (mixed categorical & numerical) and a target variable (`Risk` = Good/Bad).  
+### Atributos:
 
-
-### Features:
-
-- Age (numeric)
-- Sex (text: male, female)
-- Job (numeric: 0 - unskilled and non-resident, 1 - unskilled and resident, 2 - skilled, 3 - highly skilled)
-- Housing (text: own, rent, or free)
-- Saving accounts (text - little, moderate, quite rich, rich)
-- Checking account (numeric, in DM - Deutsch Mark)
-- Credit amount (numeric, in DM)
-- Duration (numeric, in month)
-- Purpose (text: car, furniture/equipment, radio/TV, domestic appliances, repairs, education, business, vacation/others)
+- Idade (numérico)  
+- Sexo (texto: masculino, feminino)  
+- Ocupação (numérico:  
+  - 0 - não qualificado e não residente  
+  - 1 - não qualificado e residente  
+  - 2 - qualificado  
+  - 3 - altamente qualificado)  
+- Habitação (texto: próprio, aluguel ou gratuito)  
+- Contas de poupança (texto: pouca, moderada, bastante rica, rica)  
+- Conta corrente (numérico, em Marcos Alemães - DM)  
+- Valor do crédito (numérico, em DM)  
+- Duração (numérico, em meses)  
+- Finalidade (texto: carro, móveis/equipamentos, rádio/TV, eletrodomésticos, reformas, educação, negócios, férias/outros)  
